@@ -1,81 +1,156 @@
-img{
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: darkturquoise;
+    height: 1in;
+}
+
+.navbar h2 {
+    padding-right: 5%;
+}
+
+.nav-link {
+    font-size: larger;
+}
+
+.container {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px; /* Limit the maximum width */
+    width: 100%;
+}
+
+.card-box {
+    border: 3px solid rgb(103, 102, 105);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 20px 0;
+    width: 90%; /* Adjust width to be wider */
+}
+
+.card-image {
+    width: 80%; /* Make the car image smaller */
+    height: auto;
+    border-bottom: 3px solid rgb(103, 102, 105);
+    margin: 0 auto; /* Center the image */
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.icon-img {
+    width: 100%; /* Ensure the image fills the column */
+}
+
+.divider {
+    border-left: 2px solid rgb(103, 102, 105);
+    height: 100%;
+    margin: 0 20px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%; /* Ensure it aligns with the icon height */
+    text-align: center; /* Center align the text */
+}
+
+.contact-info h3, .contact-info p {
+    color: #007bff;  /* Change text color to blue */
+    margin-bottom: 5px; /* Reduce the space between text lines */
+    line-height: 1.2; /* Adjust line height for better spacing */
+}
+
+/* Existing styles */
+img {
   width: 60%;
   align-self: center;
 }
 
-.card{
+.card {
   border: rgb(103, 102, 105) 3px solid;
   display: flex;  
   flex-direction: column;
-  margin-left:5%;
-  margin-right:5%;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 1%;
   margin-bottom: 1%;
 }
 
-.row{
+.row {
   display: flex;  
   flex: 1;
   flex-direction: row;
   margin: auto;
   margin-top: 1%;
   justify-content: center;
-  padding:20px;
+  padding: 20px;
 }
 
-.container{
+.container {
   justify-content: center;
 }
-.details{
+
+.details {
   font-size: 20px;
   color: rgb(97, 64, 128);
-  padding:20px;
+  padding: 20px;
 }
 
-.title{
+.title {
   font-size: 20px;
   background-color: rgb(97, 64, 128);
   color: white;
   text-align: center;
-  margin:20px;
-  padding:5px;
+  margin: 20px;
+  padding: 5px;
 }
 
-.homepage_links{
-  color:  rgb(97, 64, 128);
+.homepage_links {
+  color: rgb(97, 64, 128);
   padding: 25%;
   font-size: larger;
-  }
+}
 
-.loginlink{
+.loginlink {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
 
-.banner{
+.banner {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex:1
+  flex: 1;
 }
 
 .form_panel {
-  padding:2%;
+  padding: 2%;
   display: flex;
   flex-direction: column;
   border-radius: 50px;
-  text-align:center;
+  text-align: center;
   box-shadow: 2px 2px 2px 3px #999;
   margin: auto;
   min-width: 350px;
   width: 80%;
-  margin-top:3%;
+  margin-top: 3%;
   background-color: black;
 }
 
-.navitems{
+.navitems {
   display: flex;
   flex-direction: row;
   padding: 20px;
@@ -84,18 +159,18 @@ img{
   justify-self: center;
 }
 
-.nav_item{
-  margin-left:15px;
+.nav_item {
+  margin-left: 15px;
   font-size: 20px;
   color: black;
   align-self: center;
 }
 
-.username{
+.username {
   font: 30px sans-serif;
-  color:black;
+  color: black;
   justify-content: 'flex-end';
-  align-self:flex-end;
+  align-self: flex-end;
   vertical-align: middle;
 }
 
@@ -104,23 +179,23 @@ img{
   flex-direction: row;
   padding: 20px;
   flex: 1;
-  justify-content:flex-end;
+  justify-content: flex-end;
   align-items: flex-end;
   vertical-align: middle;
 }
 
-.small_header{
+.small_header {
   font: 30px sans-serif;
-  color:black;
+  color: black;
   margin: .5cm;
 }
 
 .img_icon {
   align-self: center;
-    width:40px;
-    background-color:#0C9;
-    color:#FFF;
-    border-radius:50px;
-    text-align:center;
-    box-shadow: 2px 2px 3px #999;  
+  width: 40px;
+  background-color: #0C9;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;  
 }
